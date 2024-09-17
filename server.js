@@ -12,7 +12,7 @@ app.use(express.json())
 app.get('/', (req, res) => {
   res.send('hello iNotebook')
 })
-app.use('/api/auth', require('./routes/Auth'))
+app.use('/api/auth', require('./routes/auth'))
 app.use('/api/note', require('./routes/note'))
 
 app.listen(port, () => {
