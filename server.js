@@ -16,5 +16,5 @@ app.use('/api/auth', require('./routes/auth'))
 app.use('/api/note', require('./routes/note'))
 
 app.listen(port, () => {
-  console.log(`iNotebook app listening at http://localhost:${port}`)
+  console.log(`iNotebook app listening at https://inotebook-89n3.onrender.com:${port}`)
 })
